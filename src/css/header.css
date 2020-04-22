@@ -1,0 +1,16 @@
+
+.header {
+    height: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+}
+
+.each-header {
+    color: white;
+    margin-right: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
