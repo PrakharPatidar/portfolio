@@ -8,6 +8,15 @@
     background-color: steelblue;
 }
 
+.routing {
+    text-align: right;
+}
+
+.contact-icon > *{
+    font-size: 13px;
+    margin-left: 15px;
+}
+
 .each-header {
     color: white;
     margin-right: 2rem;
