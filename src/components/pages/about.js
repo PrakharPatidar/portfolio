@@ -10,7 +10,19 @@ class about extends Component {
                             About Me
                             </h2>
                         <p>
-                            Electrical engineer by education, passionate coder by profession. Eager to trying out latest technology
+                            Electrical engineer by education, passionate developer by profession. Eager to trying out latest technology and implement those for better software development
+                        </p>
+
+                        <h2>
+                            Interests
+                            </h2>
+                        <p>
+                            <ul>
+                                <li>Guitar</li>
+                                <li>Guitar</li>
+                                <li>Rubik'c cube</li>
+                                <li>Rubik'c cube</li>
+                            </ul>
                         </p>
                     </div>
                     <div className='col-md-6'>
