@@ -5,13 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 
-import Header from './components/header';
-import Home from './components/home';
-import About from './components/about';
-import Work from './components/work';
-import Contact from './components/contact';
-import Blogs from './components/blogs';
-import Footer from './components/footer';
+import Footer from './components/layout/footer';
+import Header from './components/layout/header';
+import Main from './components/layout/main';
 import './css/common.css';
 
 function App() {
@@ -19,23 +15,7 @@ function App() {
     <div className='main-container'>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path='/portfolio'>
-            <Home />
-          </Route>
-          <Route exact path='/portfolio/about'>
-            <About />
-          </Route>
-          <Route exact path='/portfolio/work'>
-            <Work />
-          </Route>
-          <Route exact path='/portfolio/contact'>
-            <Contact />
-          </Route>
-          <Route exact path='/portfolio/blogs'>
-            <Blogs />
-          </Route>
-        </Switch>
+        <Main />
         <Footer />
       </Router>
     </div>
