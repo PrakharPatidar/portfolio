@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import '../../css/work.css';
 
 class work extends Component {
     render() {
         return (
-            <div className='container'>
+            <div className='container work-container'>
                 <div className='row'>
                     <div className='col-md-6'>
                         <h2>
-                            Work Profile
+                            Work Experience 
                         </h2>
                         <h4>
                             Nymo.ai
@@ -27,7 +28,9 @@ class work extends Component {
                             Project : Marketing competitive intelligence, Reporting management system, Centralized Data Base services  <br />
                             Technologies : Python, Tensorflow, NodeJS, ReactJS, Java, Kafka, Spark, Spring, Spring boot
                         </p>
-                        <h2>
+                    </div>
+                    <div className='col-md-6'>
+                    <h2>
                             Education
                         </h2>
                         <h4>
@@ -48,9 +51,6 @@ class work extends Component {
                             Project : Develop a automated electricity billing system <br />
                             Technologies : Raspberry PI, Electric Meter
                         </p>
-                    </div>
-                    <div className='col-md-6'>
-
                     </div>
                 </div>
             </div>

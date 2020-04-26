@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import '../../css/blogs.css';
 
 class blogs extends Component {
     render() {
         return (
-            <div className='container'>
+            <div className='container blog-container'>
                 <div className='row'>
                     <div className='col-md-6'>
                         <h2>

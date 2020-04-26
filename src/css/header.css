@@ -15,6 +15,11 @@
 .contact-icon > *{
     font-size: 13px;
     margin-left: 15px;
+    color: white;
+}
+
+.each-contact > * {
+    display: inline-block;
 }
 
 .each-header {

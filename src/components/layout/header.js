@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink, } from "react-router-dom";
 import '../../css/header.css';
-import { LinkedinFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons';
+import { LinkedinFilled, MailOutlined, TwitterCircleFilled, GithubOutlined } from '@ant-design/icons';
 
 class header extends Component {
     render() {
@@ -15,22 +15,15 @@ class header extends Component {
                     <NavLink to='/portfolio/blogs' className='each-header' activeClassName='active-link'>Blogs</NavLink>
                 </div>
                 <div className='col-md-4 contact-icon'>
-                    {/* <button> */}
-                    <MailOutlined />
-                    <span> Mail</span>
-
-                    <LinkedinFilled />
-                    <span>LinkedIn</span>
-
-                    <TwitterCircleFilled />
-                    <span>Twitter</span>
-
-                    <WhatsAppOutlined />
-                    <span>Whatsapp</span>
-                    {/* </button> */}
-                    {/* <a class="nav-link active" target='_location' href='https://www.linkedin.com/in/prakharpatidar987'>Mail</a> */}
+                    <span><LinkedinFilled /></span>
+                    <span><a className='text-light' target='_location' href='https://www.linkedin.com/in/prakharpatidar987'>LinkedIn</a></span>
+                    <span><TwitterCircleFilled /></span>
+                    <span><a className='text-light' target='_location' href='https://twitter.com/prakhar_987'>Twitter</a></span>
+                    <span><GithubOutlined /></span>
+                    <span><a className='text-light' target='_location' href='https://github.com/PrakharPatidar'>GitHub</a></span>
+                    <span><MailOutlined /></span>
+                    <span><a className='text-light' target='_location' href='https://www.linkedin.com/in/prakharpatidar987'>Mail</a></span>
                 </div>
-
             </div>
         )
     }
