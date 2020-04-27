@@ -1,13 +1,7 @@
 .main-container {
-    /* height: 70%; */
-    /* height: 600px; */
-    /* position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%; */
-    /* animation: fadeInRight 1s; */
-    height: 84vh;
+    /* height: 84vh; */
     margin-bottom: 5rem;
+    margin-top: 8vh;
     overflow: auto;
-    margin-top: 3rem;
+    /* padding-top: 2vh; */
 }

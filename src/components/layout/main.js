@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/main.css';
 import {
-    BrowserRouter as Router,
-    Switch,
     Route,
-    // Router
 } from "react-router-dom";
 
 
@@ -13,6 +10,7 @@ import About from '../pages/about';
 import Work from '../pages/work';
 import Contact from '../pages/contact';
 import Blogs from '../pages/blogs';
+import Resume from '../pages/resume';
 import '../../css/main.css';
 
 const main = () => (
@@ -22,6 +20,7 @@ const main = () => (
         <Route exact path='/portfolio/work' component={() => <Work />} />
         <Route exact path='/portfolio/contact' component={() => <Contact />} />
         <Route exact path='/portfolio/blogs' component={() => <Blogs />} />
+        <Route exact path='/portfolio/resume' component={() => <Resume />} />
     </div>
 )
 
