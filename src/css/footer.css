@@ -4,7 +4,8 @@
   bottom: 0;
   width: 100%;
   background-color: steelblue;
-  height: 4rem;
+  height: 8vh;
+  /* height: 4rem; */
   color: white;
   display: flex;
   justify-content: center;
