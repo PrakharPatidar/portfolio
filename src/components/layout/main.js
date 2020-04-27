@@ -7,6 +7,7 @@ import {
     // Router
 } from "react-router-dom";
 
+
 import Home from '../pages/home';
 import About from '../pages/about';
 import Work from '../pages/work';
@@ -15,7 +16,7 @@ import Blogs from '../pages/blogs';
 import '../../css/main.css';
 
 const main = () => (
-    <div className='main-container'>
+    <div className='main-container transition-left-to-right'>
         <Route exact path='/portfolio' component={() => <Home />} />
         <Route exact path='/portfolio/about' component={() => <About />} />
         <Route exact path='/portfolio/work' component={() => <Work />} />

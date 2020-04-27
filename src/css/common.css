@@ -1,3 +1,20 @@
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(50%, 0, 0);
+      /* background: red; */
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+      /* background: white */
+    }
+}
+
+.transition-left-to-right {
+    animation: fadeInRight 0.5s;
+}
 .active-link {
     color: #0cc2f0 !important;
 }
