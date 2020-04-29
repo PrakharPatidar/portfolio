@@ -13,8 +13,17 @@
 }
 
 .transition-left-to-right {
+    /* padding-top: 2rem; */
     animation: fadeInRight 0.5s;
 }
 .active-link {
     color: #0cc2f0 !important;
+}
+
+.fixed-bottom-scroll {
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  font-size: 2rem;
+  /* height: 5rem */
 }

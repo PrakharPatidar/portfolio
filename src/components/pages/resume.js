@@ -31,6 +31,8 @@ class resume extends Component {
                             <li>Java</li>
                             <li>Java Script</li>
                             <li>ReactJS</li>
+                            <li>MongoDb</li>
+                            <li>SQL Db</li>
                         </ul>
                     </div>
                     <div className='col-md-4'>

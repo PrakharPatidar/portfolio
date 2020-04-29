@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../css/home.css';
+import { DownCircleTwoTone, DownCircleOutlined, DownCircleFilled } from '@ant-design/icons';
 
 class home extends Component {
     render() {
@@ -11,13 +12,17 @@ class home extends Component {
         const diffMonth = Math.floor((years - diffyear) * 12);
         return (
             <div className='container home-container transition-left-to-right'>
+                <div className='fixed-bottom-scroll' onClick={this.scrollClick}>
+                    <DownCircleFilled />
+                </div>
                 <div className='row'>
                     <section className='main-first'>
-                        <h2 className='main-title'> Hi, I am Prakhar Patidar</h2>
+                        <h2 className='main-title'> Hi, I'm Prakhar Patidar.</h2>
                         <p className='main-content'>
-                            I am a <b>Data Scientist</b> by profession. In my {diffyear} years and {diffMonth} months of software industry experience not only
+                            I am a <b>Data Scientist</b> by profession. Currently working at nymo.ai. I am an alumna of <a href='https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Roorkee' target='_location'>IIT Roorkee </a>
+                            and <a href='https://en.wikipedia.org/wiki/M.B.M._Engineering_College' target='_location'>MBM engineering college, Jodhpur</a>. In my {diffyear} years and {diffMonth} months of software industry experience not only
                             I have worked on various data science technologies, but also got my hands dirty on few FrontEnd, BankEnd, DevOps, Big data and system integration technolgoies.
-                            Latest technologies and integration techniques easily attracts me to try them out and take better decisions for software development.
+                            Latest trends in technologies and integration techniques easily attracts me to try them out and take better decisions for software development.
                         </p>
                     </section>
                     <section>

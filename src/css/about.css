@@ -1,18 +1,26 @@
 .contact-container {
     /* margin-top: 5rem; */
+    /* padding-top: 2rem; */
 }
 
 section {
-    height: 84vh;
+    height: 50rem;
+    /* height: 84vh; */
+}
+
+.container-inside {
+    padding-top: 2rem;
 }
 
 .section-1 {
-    background-color: #e9e9e9;
+    /* margin-top: 2rem; */
+    /* background-color: #5a5a5a; */
+    /* background-image: url('../../public/profile_small.jpg'); */
     /* background-color: rgb(163, 131, 182); */
 }
 
 .section-2 {
-    background-color: gainsboro;
+    background-color: rgb(240, 240, 240);
 }
 
 .contact-container {
