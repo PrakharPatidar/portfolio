@@ -35,3 +35,10 @@
     font-size: larger;
     font-weight: bold;
 }
+
+.development {
+    position: fixed;
+    top: 3vh;
+    left: 2vw;
+    font-size: small;
+}

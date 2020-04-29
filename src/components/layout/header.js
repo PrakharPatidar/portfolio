@@ -7,6 +7,9 @@ class header extends Component {
     render() {
         return (
             <div className='header'>
+                <div className='development'>
+                    Under Development
+                </div>
                 <div className='col-md-8 routing'>
                     <NavLink to='/portfolio' className='each-header' exact activeClassName='active-link'>Home</NavLink>
                     <NavLink to='/portfolio/about' className='each-header' activeClassName='active-link'>About</NavLink>
@@ -23,7 +26,7 @@ class header extends Component {
                     <span><GithubOutlined /></span>
                     <span><a className='text-light' target='_location' href='https://github.com/PrakharPatidar'>GitHub</a></span>
                     <span><MailOutlined /></span>
-                    <span><a className='text-light' target='_location' href='https://www.linkedin.com/in/prakharpatidar987'>Mail</a></span>
+                    <span><a className='text-light' href='mailto:prakhar.patidar987@gmail.com' rel="noopener noreferrer" target='_location'>Mail</a></span>
                 </div>
             </div>
         )
