@@ -49,6 +49,7 @@ class about extends Component {
                                         <li className='list-group-item'>Rubik'c cube</li>
                                         <li className='list-group-item'>Table Tennis</li>
                                         <li className='list-group-item'>Chess</li>
+                                        <li className='list-group-item'>Cooking</li>
                                     </ul>
                                 </p>
                             </div>
@@ -72,9 +73,9 @@ class about extends Component {
                                     <dt class="col-sm-3 text-truncate">Profile :</dt>
                                     <dd class="col-sm-9">Data Scientist.</dd>
                                     <dt class="col-sm-3">Project :</dt>
-                                    <dd class="col-sm-9">TMS, VMS.</dd>
+                                    <dd class="col-sm-9">Training Management System, Video Management System.</dd>
                                     <dt class="col-sm-3">Technologies :</dt>
-                                    <dd class="col-sm-9">Python, Tensorflow, NodeJS, ReactJS.</dd>
+                                    <dd class="col-sm-9">Python, Tensorflow, MongoDb, Dlib, Celery, Javascript, NodeJS, ReactJS.</dd>
                                 </dl>
                                 <h4>
                                     IBM India Pvt. Ltd.
@@ -94,7 +95,7 @@ class about extends Component {
                                     <dt class="col-sm-3">Project :</dt>
                                     <dd class="col-sm-9">Marketing competitive intelligence, Reporting management system, Centralized Data Base services, Document processing pipeline.</dd>
                                     <dt class="col-sm-3">Technologies :</dt>
-                                    <dd class="col-sm-9">Python, Tensorflow, NodeJS, JavaScript, ReactJS, Java, Kafka, Spark, Spring, Spring boot, Docker, Docker swarm, Spark, Bluemix.</dd>
+                                    <dd class="col-sm-9">Python, Tensorflow, NodeJS, JavaScript, ReactJS, Java, Kafka, Spark, Spring, Spring boot, Docker, Docker swarm, Spark, Bluemix, IBM Watson, Chatbots.</dd>
 
                                 </dl>
                             </div>

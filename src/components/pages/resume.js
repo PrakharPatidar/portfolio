@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../css/resume.css';
+import Resume from '../../data/resume.pdf';
 
 class resume extends Component {
     render() {
@@ -8,10 +9,10 @@ class resume extends Component {
                 <div className='row'>
                     <div className='col-md-6'>
                         <h2>
-                            This is resume page.
+                            Professional Summary
                         </h2>
                         <p>
-                            Download my complete resume.
+                            Download complete <a href={Resume} download>resume</a>
                     </p>
                     </div>
                 </div>
