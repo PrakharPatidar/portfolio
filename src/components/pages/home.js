@@ -21,7 +21,7 @@ class home extends Component {
         </div>
         <div className="row">
           <section className="main-first">
-            <h2 className="main-title"> Hi, I'm Prakhar Patidar.</h2>
+            <h2 className="main-title"> Hi, I'm Prakhar Patidar</h2>
             <p className="main-content">
               I am a <b>Data Scientist</b> by profession. Currently working at
               Reliance Jio. I am an alumna of{" "}

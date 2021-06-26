@@ -17,6 +17,7 @@ class header extends Component {
                     {/* <NavLink to='/portfolio/contact' className='each-header' activeClassName='active-link'>Contact</NavLink> */}
                     <NavLink to='/portfolio/blogs' className='each-header' activeClassName='active-link'>Blogs</NavLink>
                     <NavLink to='/portfolio/resume' className='each-header' activeClassName='active-link'>Resume</NavLink>
+                    <NavLink to='/portfolio/apps' className='each-header' activeClassName='active-link'>Apps</NavLink>
                 </div>
                 <div className='col-md-4 contact-icon'>
                     <span><LinkedinFilled /></span>

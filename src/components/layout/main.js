@@ -11,6 +11,7 @@ import Work from '../pages/work';
 import Contact from '../pages/contact';
 import Blogs from '../pages/blogs';
 import Resume from '../pages/resume';
+import Apps from '../pages/apps';
 import '../../css/main.css';
 
 const main = () => (
@@ -21,6 +22,7 @@ const main = () => (
         <Route exact path='/portfolio/contact' component={() => <Contact />} />
         <Route exact path='/portfolio/blogs' component={() => <Blogs />} />
         <Route exact path='/portfolio/resume' component={() => <Resume />} />
+        <Route exact path='/portfolio/apps' component={() => <Apps />} />
     </div>
 )
 
