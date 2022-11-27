@@ -1,15 +1,13 @@
-## My Portfolio
+# Portfolio
 
-Have a look about me at [https://prakharpatidar.github.io/portfolio/](https://prakharpatidar.github.io/portfolio/)
+This portfolio is hosted at [Github Pages](https://prakharpatidar.github.io/portfolio/)
 
-This page summarize more about my professional life.
+# Set UP
 
 ## Local testing
-
 `npm run start`
 
 ## Deployment
-
 > Run following command at the root to deploy the changes.
 
 1. `npm run build`

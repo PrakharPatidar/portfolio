@@ -27,8 +27,8 @@ class resume extends Component {
                             Proficient
                     </h2>
                         <ul>
-                            <li>NodeJS</li>
                             <li>Python</li>
+                            <li>NodeJS</li>
                             <li>Java</li>
                             <li>Java Script</li>
                             <li>ReactJS</li>
@@ -58,9 +58,11 @@ class resume extends Component {
                             Proficient
                     </h2>
                         <ul>
+                            <li>Spark</li>
+                            <li>Airflow</li>
                             <li>TensorFlow</li>
                             <li>Keras</li>
-                            <li>Express</li>
+                            <li>Node Express</li>
                             <li>Spring, Spring boot</li>
                             <li>Kafka</li>
                         </ul>

@@ -6,38 +6,29 @@ class about extends Component {
 
     constructor(props) {
         super(props)
-        this.nextScroll = React.createRef();
+        // this.nextScroll = React.createRef();
         this.state = {
-             
-        }
-    }
-    
 
-    scrollClick = () => {
-        // window.scrollTo(0, document.getElementsByClassName('section-2'));
+        }
     }
 
     render() {
         return (
             <div className='contact-container transition-left-to-right'>
-                <div className='fixed-bottom-scroll' onClick={this.scrollClick}>
-                    <DownCircleFilled />
-                </div>
                 <section className='section-1' ref={this.nextScroll}>
                     <div className='container container-inside'>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img src='profile_small.jpg' alt='my profile image'/>
+                                <img src='profile_small.jpg' alt='my profile image' />
                             </div>
                             <div className='col-md-8'>
                                 <h2>
-                                    Brief
+                                    More about me...
                                 </h2>
                                 <p>
-                                    I work out of Bangalore, India. Btw I am an Electrical Engineer by education, passionate developer by profession.
+                                    I work out of Bangalore, India. I am an Electrical Engineer turned ML Engineeri.
                                     Possess master degree in Electric Drive and Power Electroncis.
-                            Eager to trying out latest technology and implement those for better software development. <br />
-                            I have worked with IBM for 3 years and currently engaged with Nymo.ai.
+                                    Eager to trying out latest technology and implement those for better software development. <br />
                                 </p>
                                 <h2>
                                     Interests
@@ -45,6 +36,7 @@ class about extends Component {
                                 <p>
                                     <ul className='list-group'>
                                         <li className='list-group-item'>Guitar</li>
+                                        <li className='list-group-item'>Reading Books</li>
                                         <li className='list-group-item'>Flute</li>
                                         <li className='list-group-item'>Rubik'c cube</li>
                                         <li className='list-group-item'>Table Tennis</li>
@@ -102,10 +94,10 @@ class about extends Component {
                             <div className='col-md-6'>
                                 <h2>
                                     Education
-                        </h2>
+                                </h2>
                                 <h4>
                                     IIT Roorkee - Post Graduation
-                        </h4>
+                                </h4>
                                 {/* <p>
                                     <b>Year :</b> 2014-2016, Electric Drives and Power Electronics <br />
                                     <b>Degree :</b> Master of Technology <br />
@@ -128,7 +120,7 @@ class about extends Component {
                                 </dl>
                                 <h4>
                                     Mbm Engineering College, Jodhpur - Graduation
-                        </h4>
+                                </h4>
                                 {/* <p>
                                     <b>Year :</b> 2010-2014, Electrical Engineering <br />
                                     <b>Degree :</b> Bachelor of Engineering <br />

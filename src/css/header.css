@@ -19,7 +19,7 @@
 }
 
 .contact-icon > *{
-    font-size: 13px;
+    font-size: 20px;
     float: right;
     margin-left: 10px;
     color: white;
@@ -41,4 +41,8 @@
     top: 3vh;
     left: 2vw;
     font-size: small;
+}
+
+.text-light{
+    margin-left: 15px;
 }

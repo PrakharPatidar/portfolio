@@ -6,9 +6,9 @@ class footer extends Component {
         return (
             <div>
                 <div className='footer'>
-                    <div>
+                    {/* <div>
                         Copyright @2020
-                    </div>
+                    </div> */}
                     <div className='credits'>
                         Design and developed by <b>Prakhar Patidar</b>
                     </div>
