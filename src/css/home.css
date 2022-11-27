@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); */
 body {
     font-family: 'Josefin Sans', cursive;
 }
@@ -10,13 +10,17 @@ body {
 
 .main-title {
     text-align: center;
-    font: 3em "Fira Sans", serif;
+    /* font: 3em "Fira Sans", serif; */
+    font-family: 'Dancing Script', cursive;
     margin-bottom: 5vh;
+    font-weight: bold;
+    /* color:#00E7FF; */
 }
 
 .main-content {
     /* justify-content: center; */
     /* width: 50%; */
+    /* font-family:'Sacramento', cursive; */
     text-align: center;
     /* font-style: italic; */
     padding: 0px auto;
