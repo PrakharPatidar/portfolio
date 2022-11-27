@@ -1,3 +1,29 @@
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(50%, 0, 0);
+      /* background: red; */
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+      /* background: white */
+    }
+}
+
+.transition-left-to-right {
+    /* padding-top: 2rem; */
+    animation: fadeInRight 0.5s;
+}
 .active-link {
     color: #0cc2f0 !important;
+}
+
+.fixed-bottom-scroll {
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  font-size: 2rem;
+  /* height: 5rem */
 }

@@ -1,0 +1,24 @@
+.home-container {
+    margin-top: 5rem;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 40px;
+    font: 3em "Fira Sans", serif;
+    margin-bottom: 5vh;
+}
+
+.main-content {
+    /* justify-content: center; */
+    /* width: 50%; */
+    text-align: center;
+    font-style: italic;
+    padding: 0px auto;
+    line-height: 4vh;
+    font-size: large;
+}
+
+section {
+    height: 60vh;
+}

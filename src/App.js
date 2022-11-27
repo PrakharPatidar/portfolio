@@ -12,7 +12,7 @@ import './css/common.css';
 
 function App() {
   return (
-    <div className='main-container'>
+    <div className='page-container'>
       <Router>
         <Header />
         <Main />
