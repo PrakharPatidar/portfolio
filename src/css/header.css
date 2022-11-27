@@ -1,11 +1,17 @@
 
 .header {
-    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    /* padding: 2vh 0 2vh 0; */
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: steelblue;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .routing {
@@ -14,7 +20,13 @@
 
 .contact-icon > *{
     font-size: 13px;
-    margin-left: 15px;
+    float: right;
+    margin-left: 10px;
+    color: white;
+}
+
+.each-contact > * {
+    display: inline-block;
 }
 
 .each-header {
@@ -22,4 +34,11 @@
     margin-right: 2rem;
     font-size: larger;
     font-weight: bold;
+}
+
+.development {
+    position: fixed;
+    top: 3vh;
+    left: 2vw;
+    font-size: small;
 }

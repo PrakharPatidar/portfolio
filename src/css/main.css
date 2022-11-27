@@ -1,5 +1,7 @@
-
 .main-container {
-    /* height: 70%; */
-    /* height: 600px; */
+    /* height: 84vh; */
+    margin-bottom: 5rem;
+    margin-top: 8vh;
+    overflow: auto;
+    /* padding-top: 2vh; */
 }

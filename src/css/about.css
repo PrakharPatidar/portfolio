@@ -1,0 +1,29 @@
+.contact-container {
+    /* margin-top: 5rem; */
+    /* padding-top: 2rem; */
+}
+
+section {
+    height: 50rem;
+    /* height: 84vh; */
+}
+
+.container-inside {
+    padding-top: 2rem;
+}
+
+.section-1 {
+    /* margin-top: 2rem; */
+    /* background-color: #5a5a5a; */
+    /* background-image: url('../../public/profile_small.jpg'); */
+    /* background-color: rgb(163, 131, 182); */
+}
+
+.section-2 {
+    background-color: rgb(240, 240, 240);
+}
+
+.contact-container {
+    /* text-align: center; */
+    /* padding: 0 10%; */
+}

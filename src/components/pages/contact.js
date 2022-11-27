@@ -4,7 +4,7 @@ import { LinkedinFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } f
 class contact extends Component {
     render() {
         return (
-            <div className='contact-container'>
+            <div className='contact-container transition-left-to-right'>
                 <ul class="list-group">
                     <li class="list-group-item d-flex align-items-center">
                         <MailOutlined />
