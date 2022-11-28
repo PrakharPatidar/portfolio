@@ -20,10 +20,10 @@ class header extends Component {
                     <NavLink to='/portfolio/apps' className='each-header' activeClassName='active-link'>Apps</NavLink>
                 </div>
                 <div className='col-md-4 contact-icon'>
-                    <span><LinkedinFilled /><a className='text-light' target='_location' href='https://www.linkedin.com/in/prakharpatidar987'></a></span>
-                    <span><TwitterCircleFilled /><a className='text-light' target='_location' href='https://twitter.com/prakhar_987'></a></span>
-                    <span><GithubOutlined /><a className='text-light' target='_location' href='https://github.com/PrakharPatidar'></a></span>
-                    <span><MailOutlined /><a className='text-light' href='mailto:prakhar.patidar987@gmail.com' rel="noopener noreferrer" target='_location'></a></span>
+                    <a className='text-light' href='https://www.linkedin.com/in/prakharpatidar987' target='_location'><LinkedinFilled /></a>
+                    <a className='text-light' target='_location' href='https://twitter.com/____prakhar____'><TwitterCircleFilled /></a>
+                    <a className='text-light' target='_location' href='https://github.com/PrakharPatidar'><GithubOutlined /></a>
+                    <a className='text-light' href='mailto:prakhar.patidar987@gmail.com' rel="noopener noreferrer" target='_location'><MailOutlined /></a>
                 </div>
             </div>
         )
