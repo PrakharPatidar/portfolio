@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import "../../css/home.css";
-import {
-  DownCircleTwoTone,
-  DownCircleOutlined,
-  DownCircleFilled,
-} from "@ant-design/icons";
+import data from "../../data/site_content.json";
 
 class home extends Component {
   render() {
-    const startDate = new Date("7/11/2016");
+    const home_data = data["home"];
+    const startDate = new Date(home_data["career_start_date"]);
     const today_date = new Date();
     const differnce = (today_date - startDate) / 1000;
     const years = differnce / (60 * 60 * 24 * 365.25);
@@ -22,7 +19,7 @@ class home extends Component {
             <h1 className="main-title">A Machine Learning Enginner.</h1>
             <p className="main-content">
               Currently working at
-              <b> Walmart Global Tech India</b>. I am an alumna of{" "}
+              <b> {home_data["current_compay"]}</b>. I am an alumna of{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Roorkee"
                 target="_location"
@@ -37,11 +34,11 @@ class home extends Component {
                 MBM engineering college, Jodhpur
               </a>
               . In my {diffyear} years and {diffMonth} months of IT
-              industry experience I have worked on various data science
-              domains and frameworks. I also got development experience on various
-              front-end, back-end, dev-ops, Big data and system integration
-              technolgoies. Latest technologies trends and integration
-              techniques easily attracts me to try them out and take better
+              industry experience I have worked on various technolgoies and frameworks. Most of these falls under 
+              data science and machine learning.
+              I also have hands on experience in various
+              front-end, back-end, dev-ops, big data and system integration
+              technolgoies. Latest technologies trends and frameworks easily attracts me to try them out and take better
               decisions for software development.
             </p>
           </div>

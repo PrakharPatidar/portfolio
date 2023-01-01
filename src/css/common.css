@@ -19,7 +19,8 @@
     animation: fadeInRight 0.5s;
 }
 .active-link {
-    color: #0cc2f0 !important;
+    /* color: #0cc2f0 !important; */
+    color: #A0E4CB !important;
 }
 
 .fixed-bottom-scroll {
