@@ -26,9 +26,9 @@ class about extends Component {
                                     More about me...
                                 </h2>
                                 <p>
-                                    I work out of Bangalore, India. I am an Electrical Engineer turned ML Engineeri.
-                                    Possess master degree in Electric Drive and Power Electroncis.
-                                    Eager to trying out latest technology and implement those for better software development. <br />
+                                    Before walmart I was part of Reliance Jio's AICOE recommendation team. <br/>
+                                    and before that I learnt a lot one year at a startup. <br/>
+                                    and in the beginnning I joined IBM India congnitive computing team and spent three beautiful year.<br />
                                 </p>
                                 <h2>
                                     Interests
